@@ -1,11 +1,11 @@
-# Real-Time Intrusion Detection System (IDS) 🚀
+# Real-Time Intrusion Detection System (IDS) 
 
 
-The **Real-Time Intrusion Detection System (IDS)** is a **JavaFX-based network security tool** that monitors live network traffic, detects suspicious activities, and provides real-time alerts. It leverages **Pcap4J** to capture packets, analyze network behavior, and visualize data using a dynamic line chart. This project is ideal for cybersecurity enthusiasts, ethical hackers, and developers looking to learn about network security and real-time monitoring.
+The **Real-Time Intrusion Detection System (IDS)** is a **JavaFX-based network security tool** that monitors live network traffic, detects suspicious activities, and provides real-time alerts. It uses **Pcap4J** to capture packets, analyze network behavior, and visualize data using a dynamic line chart.
 
 ## Features 
 - **Live Network Packet Capture** – Captures packets using **Pcap4J** and displays real-time traffic logs.
-- **Traffic Visualization** – Uses JavaFX **LineChart** to dynamically track packet flow.
+- **Traffic Visualization** – Uses JavaFX **LineChart** to dynamically track packet flow per time frame.
 - **Port Scan Detection** – Monitors for excessive SYN packets from a single source to identify scanning attempts.
 - **Brute-Force Attack Detection** – Detects multiple failed login attempts on critical ports (SSH, FTP, RDP).
 - **Real-Time Alerts** – Notifies users with GUI alerts when an attack is detected.
@@ -22,7 +22,6 @@ When a threat is detected, the system:
 - Displays an **on-screen alert** for immediate attention.
 
 ### Prerequisites:
-- **Java 11+** installed.
 - **Pcap4J** dependency added.
 - Windows/Linux system with **WinPcap/libpcap** installed.
 
